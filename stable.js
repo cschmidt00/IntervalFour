@@ -1,7 +1,7 @@
 var Bot = require('bot');
 var PF = require('pathfinding');
 var bot = new Bot('YOUR_KEY_HERE', 'training', 'http://vindinium.org'); //Put your bot's code here and change training to Arena when you want to fight others.
-// var bot = new Bot('YOUR_KEY_HERE', 'arena', 'http://24.6.28.217:9000'); //Put your bot's code here and change training to Arena when you want to fight others.
+// var bot = new Bot('YOUR_KEY_HERE', 'arena', 'http://52.8.116.125:9000'); //Put your bot's code here and change training to Arena when you want to fight others.
 var goDir;
 var Promise = require('bluebird');
 Bot.prototype.botBrain = function() {
@@ -24,11 +24,14 @@ Bot.prototype.botBrain = function() {
         if(bot.yourBot.id != 3) enemyBots.push(bot.bot3);
         if(bot.yourBot.id != 4) enemyBots.push(bot.bot4);
         
+        
         /*                                      * 
          * This Code Decides WHAT to do         *
          *                                      */
         var task;
         task = "freemines";
+        
+        
         
         /*                                      * 
          * This Code Determines HOW to do it    *
@@ -45,6 +48,7 @@ Bot.prototype.botBrain = function() {
             console.log("Claiming a Free Mine!");
             myDir = bot.findPath(myPos, closestMine);
         }
+        
         
         /*                                                                                                                              * 
          * This Code Sets your direction based on myDir.  If you are trying to go to a place that you can't reach, you move randomly.   *
