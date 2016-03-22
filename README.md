@@ -1,6 +1,6 @@
 # Vindinium Server
-Documentation: [Link Here](u.smtcs.rocks/vinddoc)
-How to set up this Vindinium client
+[Documentation](u.smtcs.rocks/vinddoc)  
+####How to set up this Vindinium client
 Goal: After following the steps below, you should have vindinium set up and ready to run inside of your IDE  (C9.io). You should be able to use the terminal (alt-t) to run your bot with the command: node test.js or node stable.js depending on which file you are running.
 
 ##To setup your IDE (C9.io is used here)
@@ -18,7 +18,7 @@ go to vindinium.org and Create a New Bot
 copy the provided key  
 In your IDE open the file test.js  
 paste the provided key in the space provided on line 3  
-###If provided a private server -  
+####If provided a private server -  
 go to the private server and Create a New Bot  
 copy the provided key  
 In your IDE open the file test.js  
