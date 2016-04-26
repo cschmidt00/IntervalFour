@@ -35,3 +35,4 @@ to run your test version of your bot, enter: node test.js
 
 ##To make changes to your bot
 All students should have a stable bot that will run.  Make changes only to your test.js.  When your test.js bot is running well from the changes you have made, copy/paste from your test, to your stable.  That way you can always join in any competitions without having to try and debug first.
+# IntervalFour
